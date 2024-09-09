@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+  gap: 10px;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failureimage{
+  width: 60%;
+}
+.outerContainer {
+  background-color: #161625;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px;
+}
+.logo {
+  height: 40px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logoHeading {
+  color: #2cc6c6;
+  font-size: 25px;
+  font-weight: 500;
+}
+.heading {
+  margin: 0px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.graphsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.register-prime-image {
+  margin-top: 30px;
+}
