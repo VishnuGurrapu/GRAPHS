@@ -57,8 +57,11 @@ class CowinDashboard extends Component {
 
   renderVaccinationData = () => {
     const {vaccinationData} = this.state
-    const {last7DaysVaccination, vaccinationByGender, vaccinationByAge} =
-      vaccinationData
+    const {
+      last7DaysVaccination,
+      vaccinationByGender,
+      vaccinationByAge,
+    } = vaccinationData
     return (
       <div className="graphsContainer">
         <VaccinationCoverage last7DaysVaccination={last7DaysVaccination} />
@@ -74,14 +77,14 @@ class CowinDashboard extends Component {
         className="failureimage"
         src="https://assets.ccbp.in/frontend/react-js/api-failure-view.png"
         alt="failure view"
-        className="failure-view-image"
       />
+
       <h1>something went wrong</h1>
     </div>
   )
 
   renderLoadingView = () => (
-    <div testid="loader" className="loader-container">
+    <div data-testid="loader" className="loader-container">
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )
